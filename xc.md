@@ -24,6 +24,8 @@ layout: false
 - Challenges
 - Lessons learned
 
+### Link to these slides: http://bit.ly/dalton-2018-xc
+
 ---
 
 ## What XC codes do
