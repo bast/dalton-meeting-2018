@@ -64,13 +64,16 @@ for (r, w) in grid:
         for chi_l in chi:
             density += chi_k*density_matrix[k][l]*chi_l
 
+    # compute derivatives
+    d0, d1 = xcfun(functional, density)
+
     # accumulate XC energy
-    e_xc += w*xc_derv(density, 0)
+    e_xc += w*d0
 
     # accumulate XC potential matrix elements
     for chi_k in chi:
         for chi_l in chi:
-            v_xc[k][l] += w*chi_k*xc_derv(density, 1)*chi_l
+            v_xc[k][l] += w*chi_k*d1*chi_l
 ```
 
 - In reality apply tricks and more steps to avoid cubic scaling.
