@@ -173,11 +173,11 @@ Plug-n-play libraries for:
 
 ## Licenses
 
-- XCFun: LGPL-v3.0, soon MPL-v2.0
 - XCint: MPL-v2.0
 - Numgrid: MPL-v2.0
 - Balboa: MPL-v2.0
 - Rhodeo: to be written but will be MPL-v2.0
+- XCFun: LGPL-v3.0, soon MPL-v2.0
 
 ### MPL-v2.0
 
