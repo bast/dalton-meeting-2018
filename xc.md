@@ -208,6 +208,7 @@ Plug-n-play libraries for:
 ### Short-term (OpenRSP release)
 
 - Conclude fragmentation of XCint into smaller libraries
+- Delegate functional parsing to XCFun
 - Document XCint API
 - Document XCFun API
 - XCint will become a thin shell around the other libraries
