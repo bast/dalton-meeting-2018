@@ -216,6 +216,11 @@ Plug-n-play libraries for:
 - New input parser
 - Web interface for driving calculations and post-processing
 
+### Longer term
+
+- Replace XC in DIRAC and Dalton
+- Make plotting modules of DIRAC standalone and use them with other codes
+
 ---
 
 ## Long-term challenges in XC integration
