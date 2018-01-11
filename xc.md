@@ -198,6 +198,7 @@ Plug-n-play libraries for:
 - Document the API really well so that you can delegate work
 - Make your code citeable (Zenodo)
 - Design the API so that you can avoid parallelization: let the caller do the parallelization
+- Make it easier to contribute to the code
 
 ---
 
