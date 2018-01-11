@@ -105,7 +105,7 @@ Plug-n-play libraries for:
 
 ## Motivation
 
-- separate concerns
+- decouple grid from integrator
 - isolate treatment of point group symmetry to the computation of basis functions and densities
 - make the integrator independent of point group symmetry and Hamiltonian
 - make the integrator independent of Gaussian/Slater type basis functions
@@ -230,8 +230,10 @@ Plug-n-play libraries for:
 
 - dense matrices
 - parallelization is over the grid points
+- no grid weight derivatives
 
 ### Outlook
 
 - sparse matrices
 - parallelization over basis set blocks
+- grid weight derivatives
