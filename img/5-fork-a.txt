@@ -1,0 +1,8 @@
+
+     [master]
+      |
+c1----c2
+        \
+         a1
+         |
+        [mybranch-a]

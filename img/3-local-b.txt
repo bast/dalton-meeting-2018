@@ -1,0 +1,6 @@
+
+     [origin/master,master]
+      |
+c1----c2
+      |
+     [mybranch-b,HEAD]
