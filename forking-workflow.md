@@ -22,6 +22,8 @@ layout: false
 
 ### Then we do an exercise
 
+### Link to these slides: http://bit.ly/dalton-2018-forking
+
 ---
 
 ## Commits and branches
